@@ -1,7 +1,10 @@
 // This file will be used to hold all utility extends and extras...
+$content-empty: '';
+
 //----- Extends
 %clearfix:after {
-    display:block;
-    clear:both;
-    content:'';
+  display:block;
+  clear:both;
+  content:$content-empty;
 }
+

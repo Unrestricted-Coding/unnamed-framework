@@ -36,3 +36,24 @@ My inspiration for this came from [RiotJS](http://riotjs.com/) and seeing how sm
 * Styled Basic Elements
 * Library system
   * Search examples to see how to build objects
+  
+## The Concept:
+
+So here is how I envision it. (Really 3 parts)
+
+*CSS Framework:* The part that resets the body/html document, sets up fonts, colors, etc… It has basic elements like buttons, grids, panels, (Maybe cards). But it just has the supporting parts for building and laying out your site. It isn’t supposed to have your UI/UX prebuilt like bootstrap and semantic-ui do. Instead there will be a library that will contain code snippets on how to use this framework to build something (Say a modal).
+
+*JavaScript for CSS Framework:* This part uses pure javascript with no dependencies to make things like a navbar/dropdown/modal work. Very minimal, optional, and just extends the CSS Framework.
+
+*JavaScript Framework:* This part is a simple javascript framework that is similar to jQuery but not as robust or powerful. It contains things such as the Each function, Selectors, etc… It is used for basic front end javascript.
+
+Basically my goal is to take my frontside includes from approx 500kb to 100kb or less...
+
+## Icons:
+
+So I am not going to include icon's into the css framework. If you want icons then you can use previously established libraries and go crazy!
+
+If someone knows of a really small font icon library (50kb or less??) let me know. I'd be intersested in linking to a library with a true focus on mini file size.
+
+Minimilistic? Try Octicons [Here](https://octicons.github.com)
+Wanna go all out? Try Font Awesome [Here](https://fortawesome.github.io/Font-Awesome/)
