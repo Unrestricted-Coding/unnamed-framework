@@ -18,9 +18,9 @@ Check out this site here: [http://contribute.unrestrictedcoding.com](http://cont
 
 To create a web framework for front end development. This must be really small.
 
-*Size Goal:* CSS < 50kb
+**Size Goal:** CSS < 50kb
 
-*Size Goal:* JS < 50kb
+**Size Goal:** JS < 50kb
 
 We want things to truely cascade and be smart. No need for bloated css file to add new elements etc. Use what is already there to create new elements. Just provide examples on how to make them.
 
@@ -41,11 +41,11 @@ My inspiration for this came from [RiotJS](http://riotjs.com/) and seeing how sm
 
 So here is how I envision it. (Really 3 parts)
 
-*CSS Framework:* The part that resets the body/html document, sets up fonts, colors, etc… It has basic elements like buttons, grids, panels, (Maybe cards). But it just has the supporting parts for building and laying out your site. It isn’t supposed to have your UI/UX prebuilt like bootstrap and semantic-ui do. Instead there will be a library that will contain code snippets on how to use this framework to build something (Say a modal).
+**CSS Framework:** The part that resets the body/html document, sets up fonts, colors, etc… It has basic elements like buttons, grids, panels, (Maybe cards). But it just has the supporting parts for building and laying out your site. It isn’t supposed to have your UI/UX prebuilt like bootstrap and semantic-ui do. Instead there will be a library that will contain code snippets on how to use this framework to build something (Say a modal).
 
-*JavaScript for CSS Framework:* This part uses pure javascript with no dependencies to make things like a navbar/dropdown/modal work. Very minimal, optional, and just extends the CSS Framework.
+**JavaScript for CSS Framework:** This part uses pure javascript with no dependencies to make things like a navbar/dropdown/modal work. Very minimal, optional, and just extends the CSS Framework.
 
-*JavaScript Framework:* This part is a simple javascript framework that is similar to jQuery but not as robust or powerful. It contains things such as the Each function, Selectors, etc… It is used for basic front end javascript.
+**JavaScript Framework:** This part is a simple javascript framework that is similar to jQuery but not as robust or powerful. It contains things such as the Each function, Selectors, etc… It is used for basic front end javascript.
 
 Basically my goal is to take my frontside includes from approx 500kb to 100kb or less...
 
