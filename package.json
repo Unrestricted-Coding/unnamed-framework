@@ -1,0 +1,28 @@
+{
+  "name": "web-framework",
+  "version": "1.0.0",
+  "description": "[![Slack Status](https://uc-slack.herokuapp.com/badge.svg)](https://uc-slack.herokuapp.com) [![Visit Unrestricted Coding](https://img.shields.io/badge/Visit-Unrestricted%20Coding-blue.svg)](http://unrestrictedcoding.com) ![License](https://img.shields.io/badge/LICENSE-MIT-ff69b4.svg) ![Status](https://img.shields.io/badge/Status-Very%20WIP-red.svg)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unrestricted-Coding/unnamed-framework.git"
+  },
+  "author": "Shannon Duncan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Unrestricted-Coding/unnamed-framework/issues"
+  },
+  "homepage": "https://github.com/Unrestricted-Coding/unnamed-framework#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-sass-lint": "0.1.0-beta.4"
+  }
+}

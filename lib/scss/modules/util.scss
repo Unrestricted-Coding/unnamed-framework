@@ -1,0 +1,7 @@
+// This file will be used to hold all utility extends and extras...
+//----- Extends
+%clearfix:after {
+    display:block;
+    clear:both;
+    content:'';
+}
