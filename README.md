@@ -7,6 +7,8 @@
 [![Gitter](https://badges.gitter.im/Unrestricted-Coding/unnamed-framework.svg)](https://gitter.im/Unrestricted-Coding/unnamed-framework?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Un-Named Framework
+
+[![Join the chat at https://gitter.im/Unrestricted-Coding/unnamed-framework](https://badges.gitter.im/Unrestricted-Coding/unnamed-framework.svg)](https://gitter.im/Unrestricted-Coding/unnamed-framework?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A front-end web framework with no name yet. I'll think of a name as it becomes more developed.
 
 ## Want to Contribute?
