@@ -1,7 +1,7 @@
 //----- Grid System
 $grid-spacing:3%;
  
-.row {
+.r {
   @extend %clearfix;
  
   & + & {
@@ -9,7 +9,7 @@ $grid-spacing:3%;
   }
 }
 
-%col {
+%c {
   float:left;
   margin-right:$grid-spacing;
   -webkit-box-sizing:border-box; 
@@ -22,15 +22,15 @@ $grid-spacing:3%;
 }
  
 //----- Columns (Automatic)
-.col-1   { @extend %col; width:(100% / 12) - ($grid-spacing * 11 / 12); }
-.col-2   { @extend %col; width:(100% / 6) - ($grid-spacing * 10 / 12); }
-.col-3   { @extend %col; width:(100% / 4) - ($grid-spacing * 9 / 12); }
-.col-4   { @extend %col; width:(100% / 3) - ($grid-spacing * 8 / 12); }
-.col-5   { @extend %col; width:(100% / 2.4) - ($grid-spacing * 7 / 12); }
-.col-6   { @extend %col; width:(100% / 2) - ($grid-spacing * 6 / 12); }
-.col-7   { @extend %col; width:(100% / 1.714285714285714) - ($grid-spacing * 5 / 12); }
-.col-8   { @extend %col; width:(100% / 1.5) - ($grid-spacing * 4 / 12); }
-.col-9   { @extend %col; width:(100% / 1.333333333333333) - ($grid-spacing * 3 / 12); }
-.col-10  { @extend %col; width:(100% / 1.2) - ($grid-spacing * 2 / 12); }
-.col-11  { @extend %col; width:(100% / 1.090909090909091) - ($grid-spacing * 1 / 12); }
-.col-12  { @extend %col; width:100%; }
+.c1   { @extend %c; width:(100% / 12) - ($grid-spacing * 11 / 12); }
+.c2   { @extend %c; width:(100% / 6) - ($grid-spacing * 10 / 12); }
+.c3   { @extend %c; width:(100% / 4) - ($grid-spacing * 9 / 12); }
+.c4   { @extend %c; width:(100% / 3) - ($grid-spacing * 8 / 12); }
+.c5   { @extend %c; width:(100% / 2.4) - ($grid-spacing * 7 / 12); }
+.c6   { @extend %c; width:(100% / 2) - ($grid-spacing * 6 / 12); }
+.c7   { @extend %c; width:(100% / 1.714285714285714) - ($grid-spacing * 5 / 12); }
+.c8   { @extend %c; width:(100% / 1.5) - ($grid-spacing * 4 / 12); }
+.c9   { @extend %c; width:(100% / 1.333333333333333) - ($grid-spacing * 3 / 12); }
+.c10  { @extend %c; width:(100% / 1.2) - ($grid-spacing * 2 / 12); }
+.c11  { @extend %c; width:(100% / 1.090909090909091) - ($grid-spacing * 1 / 12); }
+.c12  { @extend %c; width:100%; }
