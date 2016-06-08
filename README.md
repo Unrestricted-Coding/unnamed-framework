@@ -1,17 +1,16 @@
-[![Slack Status](https://uc-slack.herokuapp.com/badge.svg)](https://uc-slack.herokuapp.com)
+[![Visit Facebook Group](https://img.shields.io/badge/Facebook-Visit%20Community-blue.svg)](https://www.facebook.com/groups/204308966622383)
 [![Visit Unrestricted Coding](https://img.shields.io/badge/Visit-Unrestricted%20Coding-blue.svg)](http://unrestrictedcoding.com)
 ![License](https://img.shields.io/badge/LICENSE-MIT-ff69b4.svg)
 ![Status](https://img.shields.io/badge/Status-Very%20WIP-red.svg)
-
-
-[![Gitter](https://badges.gitter.im/Unrestricted-Coding/unnamed-framework.svg)](https://gitter.im/Unrestricted-Coding/unnamed-framework?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Un-Named Framework
 A front-end web framework with no name yet. I'll think of a name as it becomes more developed.
 
 ## Want to Contribute?
 
-Check out this site here: [http://contribute.unrestrictedcoding.com](http://contribute.unrestrictedcoding.com)
+Fork it, make changes, submit a pull request. Questions? Visit the Facebook community.
+
+[![Visit Facebook Group](https://img.shields.io/badge/Facebook-Visit%20Community-blue.svg)](https://www.facebook.com/groups/204308966622383)
 
 
 ## Goal
